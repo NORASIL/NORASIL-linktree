@@ -2,7 +2,8 @@
   "license": "MIT",
   "scripts": {
     "dev": "parcel src/index.html",
-    "build": "parcel build src/index.html"
+    "build": "parcel build src/index.html",
+  "start": "serve -s dist -l 3000"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.15",
@@ -12,6 +13,7 @@
     "tailwindcss": "^3.3.3"
   },
   "dependencies": {
-    "lucide": "^0.272.0"
+    "lucide": "^0.272.0",
+    "serve": "^14.2.0"
   }
 }
